@@ -1,174 +1,57 @@
-# Smart Energy Analytics
-
-## Overview
-
-Smart Energy Analytics is an AI-powered dashboard for forecasting electricity consumption using Long Short-Term Memory (LSTM) networks.
-
-The project combines time-series forecasting, feature engineering, and interactive business analytics into a single application that helps monitor and predict energy usage.
-
----
-
-## Features
-
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Energy Consumption Forecasting
-- Interactive Dashboard
-- Business Analytics
-- Forecast Visualization
-- Automatic Alerts
-- Downloadable Reports
-
----
-
-## Technologies
-
-- Python
-- TensorFlow / Keras
-- LSTM
-- Scikit-learn
-- Pandas
-- NumPy
-- Plotly
-- Streamlit
-
----
-
-## Project Workflow
-
-Dataset
-
-↓
-
-Data Cleaning
-
-↓
-
-EDA
-
-↓
-
-Feature Engineering
-
-↓
-
-Data Normalization
-
-↓
-
-Sequence Generation
-
-↓
-
-LSTM Model
-
-↓
-
-Model Evaluation
-
-↓
-
-Energy Dashboard
-
----
-
-## Dashboard
-
-The dashboard includes:
-
-- Real-time energy statistics
-- Historical consumption visualization
-- Future energy forecasting
-- Interactive analytics
-- Automatic alerts
-- Downloadable reports
-
----
-
-## Machine Learning
-
-The forecasting model is based on Long Short-Term Memory (LSTM).
-
-The model was trained using:
-
-- EarlyStopping
-- ReduceLROnPlateau
-- ModelCheckpoint
-
-Performance was evaluated using:
-
-- MAE
-- RMSE
-- R² Score
-
----
-
-## Project Structure
-
-```
-Smart-Energy-Analytics/
-
-│
-
-├── notebooks/
-
-│ ├── 01_EDA.ipynb
-
-│ ├── 02_Preprocessing.ipynb
-
-│ ├── 03_Baseline_LSTM.ipynb
-
-│ ├── 04_Advanced_LSTM.ipynb
-
-│ ├── 05_Window_Comparison.ipynb
-
-│ ├── 06_Advanced_Model.ipynb
-
-│ └── 07_Feature_Engineering.ipynb
-
-│
-
-├── models/
-
-│ ├── final_energy_model.keras
-
-│ ├── energy_scaler.pkl
-
-│ └── selected_features.pkl
-
-│
-
-├── data/
-
-│ └── daily_energy_data.csv
-
-│
-
-├── app.py
-
-├── requirements.txt
-
-└── README.md
-```
-
----
-
-## Future Improvements
-
-- Transformer-based forecasting models
+# ⚡ Smart Energy Analytics — LSTM Time-Series Forecasting
+
+A deep-learning project for analyzing and forecasting electricity consumption using **LSTM neural networks**, time-series preprocessing, feature engineering, and an interactive analytics workflow.
+
+## 🎯 Project Goal
+Build a complete forecasting pipeline that transforms historical energy-consumption data into sequences suitable for deep learning, trains and improves LSTM models, evaluates forecasting quality, and presents results through an interactive application.
+
+## 🧠 End-to-End Workflow
+1. Data understanding and exploratory analysis
+2. Time-series preprocessing
+3. Feature engineering
+4. Data normalization
+5. Sequence/window generation
+6. Baseline LSTM training
+7. Improved and advanced LSTM experiments
+8. Model optimization and evaluation
+9. Interactive forecasting and visualization
+
+## 🤖 Deep Learning
+The project experiments with multiple LSTM stages rather than a single model:
+- Baseline LSTM
+- Improved LSTM
+- Advanced LSTM architecture
+- Model optimization
+- Feature-engineering experiments
+
+Training utilities include **EarlyStopping**, **ReduceLROnPlateau**, and **ModelCheckpoint**.
+
+## 📊 Evaluation
+Forecasting performance is evaluated using:
+- **MAE**
+- **RMSE**
+- **R² Score**
+
+## 🛠️ Tech Stack
+**Python · TensorFlow/Keras · LSTM · Scikit-learn · Pandas · NumPy · Plotly · Streamlit · Jupyter Notebook**
+
+## 📂 Repository Highlights
+The repository contains separate notebooks for:
+- Data understanding & EDA
+- Preprocessing
+- Baseline LSTM
+- Improved LSTM
+- Model optimization
+- Advanced LSTM experiments
+
+This structure documents the progression from raw data exploration to increasingly refined forecasting models.
+
+## 🔮 Future Improvements
+- Transformer-based forecasting
 - Multi-step forecasting
-- Real-time IoT integration
+- Real-time IoT data integration
+- Anomaly detection
 - Cloud deployment
-- User authentication
-- Energy anomaly detection
 
 ---
-
-## Author
-
-**Abdulrahmn El-Essawi**
-
-Computer Engineering Student
-
-Interested in Artificial Intelligence, Machine Learning, Deep Learning, and Data Analytics.
+**Portfolio focus:** Deep Learning · Time Series · LSTM · Forecasting · Energy Analytics
